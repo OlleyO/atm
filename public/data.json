@@ -1,0 +1,187 @@
+{
+  "balances": [
+    {
+      "name": "1",
+      "TL": 352.5,
+      "EURO": 213.7,
+      "USD": 211.5
+    },
+    {
+      "name": "2",
+      "TL": 361.9,
+      "EURO": 248.4,
+      "USD": 231.123
+    },
+    {
+      "name": "3",
+      "TL": 324.78,
+      "EURO": 323.7,
+      "USD": 267.345
+    },
+    {
+      "name": "4",
+      "TL": 352.19,
+      "EURO": 178.43,
+      "USD": 287.125
+    }
+  ],
+  "progresses": [
+    {
+      "name": "TL",
+      "value": 0.5
+    },
+    {
+      "name": "EURO",
+      "value": 0.3
+    },
+    {
+      "name": "USD",
+      "value": 0.2
+    }
+  ],
+  "creditCards": [
+    {
+      "name": "Maximum Card",
+      "number": "1234 6969 9012 3456",
+      "owner": "Ertugrul cevahir",
+      "expirationMonth": "07",
+      "expirationYear": "20",
+      "CV": 123,
+      "debt": 1400,
+      "creditAvailable": 8500,
+      "cutOffDate": "03.05.2018"
+    },
+    {
+      "name": "Minimum Card",
+      "number": "1234 5678 8493 3456",
+      "owner": "Ertugrul cevahir",
+      "expirationMonth": "05",
+      "expirationYear": "22",
+      "CV": 141,
+      "debt": 927,
+      "creditAvailable": 9120,
+      "cutOffDate": "03.05.2015"
+    },
+    {
+      "name": "Middle Card",
+      "number": "1234 4321 9012 3456",
+      "owner": "Ertugrul cevahir",
+      "expirationMonth": "21",
+      "expirationYear": "23",
+      "CV": 532,
+      "debt": 432,
+      "creditAvailable": 8500,
+      "cutOffDate": "03.05.2021"
+    }
+  ],
+  "sendTo": [
+    {
+      "name": "Ertugrul",
+      "surname": "Cevahir"
+    },
+    {
+      "name": "Abrahim",
+      "surname": "Mohhamad"
+    },
+    {
+      "name": "Mustapha",
+      "surname": "Kebab"
+    }
+  ],
+  "payments": [
+    {
+      "name": "Utility Bill",
+      "date": "08 May",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "amount": 186
+    },
+    {
+      "name": "House Bill",
+      "date": "22 May",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "amount": 2800
+    },
+    {
+      "name": "Phone Bill",
+      "date": "01 June",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "amount": 70
+    },
+    {
+      "name": "Phone Bill",
+      "date": "01 June",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "amount": 70
+    },
+    {
+      "name": "Phone Bill",
+      "date": "01 June",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+      "amount": 70
+    }
+  ],
+  "transactions": [
+    {
+      "name": "Starbucks",
+      "date": "Today",
+      "amount": 12,
+      "growth": "down"
+    },
+    {
+      "name": "Salary",
+      "date": "30 Apr",
+      "amount": 12000,
+      "growth": "up"
+    },
+    {
+      "name": "CarrefourSA",
+      "date": "29 Apr",
+      "amount": 324.78,
+      "growth": "down"
+    }
+  ],
+  "companyStatistics": [
+    {
+      "growth": "down",
+      "company": "DOV JONES",
+      "value": 20.869,
+      "points": [0, 5, 7, 12, 6, 2]
+    },
+    {
+      "growth": "up",
+      "company": "XU 100",
+      "value": 20.869,
+      "points": [0, 4, 7, 12, 15]
+    },
+    {
+      "growth": "up",
+      "company": "BIST BANKS",
+      "value": 152.421,
+      "points": [0, 4, 7, 12, 15, 21, 22, 43, 50, 10, 21]
+    },
+    {
+      "growth": "up",
+      "company": "VIOP",
+      "value": 111.113,
+      "points": [0, 4, 7, 12, 15, 10, 46, 30, 34]
+    },
+    {
+      "growth": "up",
+      "company": "DOLCE & GABBANA",
+      "value": 501.736,
+      "points": [5, 3, 25, 16, 20, 40, 3, 64]
+    },
+    {
+      "growth": "down",
+      "company": "MICROSOFT",
+      "value": 5.869,
+      "points": [20, 7, 10, 2, 36, 47, 8]
+    },
+    {
+      "growth": "down",
+      "company": "APPLE",
+      "value": 12.869,
+      "points": [60, 32, 21, 24, 10, 1, 30, 67, 69, 50, 40, 34, 21]
+    }
+  ]
+}

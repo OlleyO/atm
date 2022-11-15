@@ -1,0 +1,40 @@
+@import "shared";
+
+.send-card {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  gap: rem(20px);
+
+  background-color: #232d38;
+
+  border-radius: rem(4px);
+
+  padding-left: rem(12px);
+  padding-right: rem(30px);
+}
+
+.text {
+  color: #fff;
+  flex: 1;
+  font-size: rem(14px);
+}
+
+.avatar {
+  // margin-right: rem(20px);
+}
+
+.input {
+  flex: 1;
+}
+
+.button {
+  // flex: 0.1;
+
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: var(--active-color);
+}

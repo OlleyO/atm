@@ -1,0 +1,14 @@
+@function hexToRgb($hex, $alpha: 1) {
+  $rgb: hex2rgb($hex);
+  @return rgb2rgba($rgb, $alpha);
+}
+
+$root-font-size: 16px;
+
+@media screen and (max-height: 900px) {
+  $root-font-size: 10px;
+}
+
+@function rem($size) {
+  @return $size / $root-font-size * 1rem;
+}

@@ -1,0 +1,66 @@
+@import "shared";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: rem(71px);
+
+  width: 100%;
+
+  background-color: var(--navbar-bg);
+  padding-right: rem(25px);
+
+  @include flex-align-center;
+}
+
+.logo {
+  @include flex-justify-align-center;
+  padding: 0 rem(25px);
+  height: 100%;
+  box-shadow: 0px 0px 25px 1px #1f2932;
+
+  margin-right: rem(50px);
+
+  .logo-image {
+    object-position: center center;
+  }
+}
+
+.search-input-container {
+  @include flex-align-center;
+
+  color: var(--placeholder-color);
+
+  gap: rem(15px);
+
+  margin-right: auto;
+
+  transition: all 0.5s;
+
+  input,
+  input::placeholder {
+    transition: all 0.5s;
+  }
+
+  &:focus-within {
+    color: #fff;
+
+    input {
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.search-input {
+}
+
+.part-right {
+  @include flex-align-center;
+  gap: rem(50px);
+}

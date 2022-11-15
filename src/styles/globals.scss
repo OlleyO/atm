@@ -1,0 +1,137 @@
+@use "sass:math";
+@use "functions";
+@import "mixins";
+
+:root {
+  --page-bg: #1f2932;
+  --card-head-bg: #253443;
+  --navbar-bg: #253443;
+  --placeholder-color: #445368;
+  --active-color: #008aff;
+}
+
+*,
+html,
+#__next,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+::placeholder,
+:-ms-input-placeholder {
+  color: var(--placeholder-color);
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body,
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+#__next {
+  font-size: (functions.$root-font-size / 16px) * 100%;
+
+  @include media-max-height-md {
+    font-size: (functions.$root-font-size / 16px) * 75%;
+  }
+}
+
+.react-icon {
+  width: functions.rem(17px);
+  height: functions.rem(17px);
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--placeholder-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
+}
+
+.swiper-slide {
+  width: auto;
+  flex-shrink: 0;
+  display: block;
+  height: 100%;
+  max-height: 100%;
+}
+
+.swiper-wrapper {
+  max-height: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.MuiAvatar-root {
+  background: linear-gradient(
+    60deg,
+    #382161,
+    #35205a,
+    #332053,
+    #301f4c,
+    #2d1e46,
+    #2b1e3f,
+    #281d38,
+    #251c32
+  );
+  svg {
+    display: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.swiper {
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+.swiper-pagination.swiper-pagination-bullets {
+  position: absolute;
+
+  left: -45% !important;
+  bottom: 0 !important;
+
+  z-index: 9999 !important;
+
+  .swiper-pagination-bullet {
+    z-index: 9999 !important;
+  }
+}
+
+.MuiButtonBase-root.MuiTab-root {
+  @include media-max-height-md {
+    font-size: 14px !important;
+  }
+}
+
+.MuiTabs-flexContainer {
+  * {
+    font-size: 14px !important;
+  }
+}

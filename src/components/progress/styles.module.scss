@@ -1,0 +1,89 @@
+@import "shared";
+
+.progress {
+  flex: 1 1 rem(140px);
+  margin-bottom: rem(20px);
+}
+
+.bar {
+  position: relative;
+  flex: 1 1 rem(140px);
+  height: rem(4px);
+  background-color: #19232c;
+  margin-left: rem(11px);
+
+  @include flex-align-center;
+  flex-direction: column;
+}
+
+.value-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.value {
+  color: #19232c;
+  margin-top: rem(10px);
+  font-weight: 900;
+}
+
+.row {
+  @include flex-align-center;
+  width: 100%;
+}
+
+.TL-name {
+  color: #15c7cd;
+}
+
+.TL-bar {
+  background: linear-gradient(
+    90deg,
+    #20dbb6,
+    #0adabe,
+    #00d9c6,
+    #00d8cd,
+    #00d6d3,
+    #0bd5d9,
+    #21d3dd,
+    #31d1e1
+  );
+}
+
+.EURO-name {
+  color: #0e80f6;
+}
+
+.EURO-bar {
+  background: linear-gradient(
+    90deg,
+    #266bd2,
+    #2c71d8,
+    #3177dd,
+    #377ce3,
+    #3c82e8,
+    #4188ee,
+    #468ef3,
+    #4b94f9
+  );
+}
+
+.USD-name {
+  color: #df65b6;
+}
+
+.USD-bar {
+  background: linear-gradient(
+    90deg,
+    #ce5fa9,
+    #cb60ae,
+    #c860b4,
+    #c462b9,
+    #bf63bf,
+    #ba64c4,
+    #b466ca,
+    #ae68cf
+  );
+}

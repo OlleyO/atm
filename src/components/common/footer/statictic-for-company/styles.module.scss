@@ -1,0 +1,21 @@
+@import "shared";
+
+.stat-for-company-container {
+  @include flex-align-center;
+  margin-right: rem(40px);
+}
+
+.arrow-growth {
+  color: #99ff61;
+  transform: rotate(180deg);
+}
+
+.arrow-recession {
+  color: #ff6161;
+}
+
+.text-container {
+  @include flex-align-center;
+  gap: rem(10px);
+  margin-right: rem(20px);
+}

@@ -1,0 +1,19 @@
+@import "shared";
+
+.footer {
+  height: rem(71px);
+  width: 100%;
+
+  @include flex-align-center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.marquee {
+  background-color: var(--navbar-bg);
+  @include flex-align-center;
+
+  padding: rem(10px) 0;
+}

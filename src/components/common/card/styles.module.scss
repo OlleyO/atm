@@ -1,0 +1,32 @@
+@import "shared";
+
+.card-wrapper {
+  background-color: #232d38;
+  border-radius: 4px;
+}
+
+$header-height: rem(58px);
+
+.head {
+  background-color: var(--card-head-bg);
+  border-radius: inherit;
+  padding: rem(29px);
+
+  max-height: $header-height;
+
+  @include flex-align-center;
+
+  h3 {
+    margin-right: auto;
+  }
+
+  @include media-max-height-md {
+    max-height: 40px;
+    padding: 15px;
+  }
+}
+
+.body {
+  border-radius: inherit;
+  height: calc(100% - $header-height);
+}

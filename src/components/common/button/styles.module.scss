@@ -1,0 +1,19 @@
+@import "shared";
+
+.button {
+  @include flex-justify-align-center;
+
+  background: none;
+  border: 1px solid var(--active-color);
+  color: white;
+  outline: none;
+  border-radius: rem(22px);
+
+  padding: rem(16px) rem(48px);
+  height: rem(44px);
+
+  @include media-max-height-md {
+    height: rem(30px);
+    padding: rem(8px) rem(24px);
+  }
+}

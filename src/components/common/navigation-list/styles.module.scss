@@ -1,0 +1,25 @@
+@import "shared";
+
+.link-list {
+  @include flex-align-center;
+  gap: rem(50px);
+}
+
+.link {
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:hover {
+    a {
+      color: rgb(176, 176, 176);
+    }
+  }
+}
+
+.active {
+  a {
+    color: var(--active-color);
+  }
+}

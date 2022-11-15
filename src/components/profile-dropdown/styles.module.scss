@@ -1,0 +1,24 @@
+@import "shared";
+
+.profile-dropdown {
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.visible-part {
+  @include flex-align-center;
+}
+
+.avatar {
+  margin-right: rem(20px);
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.aligned-flex {
+  @include flex-align-center;
+  gap: rem(5px);
+}
